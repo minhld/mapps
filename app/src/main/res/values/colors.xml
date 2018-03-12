@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nsoft_main_color">#018E9B</color>
+    <color name="title_my_library">#FFFFFFFF</color>
+    <color name="mylib_title_color">@color/nsoft_main_color</color>
+    <color name="default_blue">#018E9B</color>
+    
+    <color name="view_bg_color">#000000</color>
+    <color name="default_delimiter_bg">#fefefe</color>
+    
+    <color name="menu_text_color">#fff</color>
+    
+	<!-- menu drawer -->
+	<color name="md__transparent">#00000000</color>
+	<color name="md__defaultBackground">#FF303030</color>
+	<color name="menu_sub_item_bg">#FF505050</color>
+	
+	<!-- common controls -->
+	<color name="nsoft_bg">#e5e5e5</color>
+	<color name="nsoft_dark_bg">#c5c5c5</color>
+	<color name="nsoft_black_transparent_bg">#88000000</color>
+	<color name="nsoft_white_transparent_bg">#cfffffff</color>
+	<color name="nsoft_def_shadow">#cfcfcf</color>
+	<color name="nsoft_def_bgtext">#999999</color>
+	<color name="nsoft_darkgray_border">#9a9a9a</color>
+	<color name="nsoft_dark_border">#666666</color>
+	<color name="nsoft_transparent">#00FFFFFF</color>
+	<color name="nsoft_def_image_bg">#efefef</color>
+	<color name="nsoft_tab_unselected_bg">#efefef</color>
+	<color name="nsoft_tab_selected_bg">#FDFFDE</color>
+	<color name="nsoft_tab_selected_text_color">@color/mylib_title_color</color>
+	<color name="nsoft_divider_light_gray">#efefef</color>
+	
+	<color name="menu_textbox_bg">#3b3b3b</color>
+	<color name="menu_textbox_forecolor">#808080</color>
+	
+	<color name="text_def_color">#5f5f5f</color>
+	<color name="text_lightgray_color">#aaaaaa</color>
+	
+	<color name="store_panel_transparent_white">#ccFFFFFF</color>
+	
+	<color name="viewer_bg">#666</color>
+</resources>

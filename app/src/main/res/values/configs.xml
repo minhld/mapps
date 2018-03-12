@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="version">1.0.8</string>
+    <string name="action_settings">Settings</string>
+	<string name="empty_text"></string>
+	
+	<string name="epub_mimetype">application/epub+zip</string>
+	
+	<string-array name="language_array">
+        <item>English</item>
+        <item>한국어</item>
+        <!--  
+        <item>日本語</item>
+        <item>Tiếng Việt</item>
+        <item>Chinese</item>
+        -->
+    </string-array>
+	
+	<!-- server connection -->
+	<string name="server_address">216.240.43.69/osobit</string>
+	<!-- <string name="server_address">14.63.217.106:8080/nsoftxpubweb</string> -->
+	<string name="sync_url_my_online_book">http:///SERVER_ADDRESS_TAG//getBooksByLimit?user_id=/USER_ID_TAG/&amp;offset=/OFFSET_TAG/&amp;length=/LENGTH_TAG/</string>
+    <string name="sync_url_store">http:///SERVER_ADDRESS_TAG//getBooksByLimit?offset=/OFFSET_TAG/&amp;length=/LENGTH_TAG/</string>
+    <string name="sync_url_store_by_category">http:///SERVER_ADDRESS_TAG//getBooksByCategoryLimit?cat_id=/CATEGORY_ID_TAG/&amp;offset=/OFFSET_TAG/&amp;length=/LENGTH_TAG/</string>
+    <string name="sync_url_category">http:///SERVER_ADDRESS_TAG//getCategoryList</string>
+    <string name="sync_url_bookstand_fullinfo">http:///SERVER_ADDRESS_TAG//getFolderStatistic?folder_id=/BOOKSTAND_ID_TAG/</string>
+    <string name="sync_url_bookstand">http:///SERVER_ADDRESS_TAG//getFoldersLimit?offset=/OFFSET_TAG/&amp;length=/LENGTH_TAG/</string>
+    <string name="sync_url_books_in_bookstand">http:///SERVER_ADDRESS_TAG//getFolderBooksLimit?folder_id=/BOOKSTAND_ID_TAG/&amp;offset=/OFFSET_TAG/&amp;length=/LENGTH_TAG/</string>
+    <string name="sync_url_books_in_cuscat">http:///SERVER_ADDRESS_TAG//getBookFromCustomCategory?custcat_id=/CUSTCAT_ID_TAG/&amp;offset=/OFFSET_TAG/&amp;length=/LENGTH_TAG/</string>
+    <string name="sync_url_custcats_in_bookstand">http:///SERVER_ADDRESS_TAG//getCustCatsByFolder?folder_id=/BOOKSTAND_ID_TAG/</string>
+    <string name="sync_url_get_user">http:///SERVER_ADDRESS_TAG//getUser?user_id=/USER_ID_TAG/</string>
+    <string name="sync_url_get_full_user_info">http:///SERVER_ADDRESS_TAG//getFullUserInfo?logged_user_id=/LOGGED_USER_ID_TAG/&amp;user_id=/USER_ID_TAG/</string>
+    <string name="sync_url_user_bookstand">http:///SERVER_ADDRESS_TAG//getUserFoldersLimit?user_id=/USER_ID_TAG/&amp;offset=/OFFSET_TAG/&amp;length=/LENGTH_TAG/</string>
+    <string name="sync_url_user_books">http:///SERVER_ADDRESS_TAG//getBooksByUserLimit?user_id=/USER_ID_TAG/&amp;offset=/OFFSET_TAG/&amp;length=/LENGTH_TAG/</string>
+    <string name="sync_url_user_books_by_status">http:///SERVER_ADDRESS_TAG//getBooksByUserStatusLimit?user_id=/USER_ID_TAG/&amp;status_id=/STATUS_ID_TAG/&amp;offset=/OFFSET_TAG/&amp;length=/LENGTH_TAG/</string>
+    <string name="sync_url_comments">http:///SERVER_ADDRESS_TAG//getCommentsByObjectId?object_id=/BOOK_ID_TAG/</string>
+    <string name="sync_url_likes">http:///SERVER_ADDRESS_TAG//getLikesByBook?book_id=/BOOK_ID_TAG/</string>
+    <string name="sync_url_login2">http:///SERVER_ADDRESS_TAG//login2?login_field_username=/USERNAME_TAG/&amp;login_field_password=/PASSWORD_TAG/</string>
+    <string name="sync_url_create_user">http:///SERVER_ADDRESS_TAG//createUser</string>
+    <string name="sync_url_check_and_create_user">http:///SERVER_ADDRESS_TAG//checkAndCreateUser</string>
+    <string name="sync_url_user_likes">http:///SERVER_ADDRESS_TAG//getUserLikesLimit?user_id=/USER_ID_TAG/&amp;type=/TYPE/&amp;offset=/OFFSET_TAG/&amp;length=/LENGTH_TAG/</string>
+    <string name="sync_url_user_commented">http:///SERVER_ADDRESS_TAG//userCommented</string>
+    <string name="sync_url_user_liked">http:///SERVER_ADDRESS_TAG//userLiked</string>
+	<string name="sync_url_check_liked">http:///SERVER_ADDRESS_TAG//checkLiked</string>
+	<string name="sync_url_user_visited">http:///SERVER_ADDRESS_TAG//userVisited</string>
+	<string name="sync_url_user_followers">http:///SERVER_ADDRESS_TAG//getUserFollowersLimit?logged_user_id=/LOGGED_USER_ID_TAG/&amp;user_id=/USER_ID_TAG/&amp;offset=/OFFSET_TAG/&amp;length=/LENGTH_TAG/</string>
+    <string name="sync_url_user_following">http:///SERVER_ADDRESS_TAG//getUserFollowingsLimit?logged_user_id=/LOGGED_USER_ID_TAG/&amp;user_id=/USER_ID_TAG/&amp;offset=/OFFSET_TAG/&amp;length=/LENGTH_TAG/</string>
+    <string name="sync_url_follow">http:///SERVER_ADDRESS_TAG//follow?user_id=/USER_ID_TAG/&amp;partner_id=/PARTNER_ID_TAG/</string>
+    <string name="sync_url_unfollow">http:///SERVER_ADDRESS_TAG//unfollow?user_id=/USER_ID_TAG/&amp;partner_id=/PARTNER_ID_TAG/</string>
+    <string name="sync_url_mobile_reader">http:///SERVER_ADDRESS_TAG//js/mobread/index.html?epub=</string>
+    <string name="sync_url_update_book">http:///SERVER_ADDRESS_TAG//updateBookInfo</string>
+    <string name="sync_url_update_book_status">http:///SERVER_ADDRESS_TAG//updateBookStatus</string>
+    <string name="sync_url_delete_book">http:///SERVER_ADDRESS_TAG//deleteBook</string>
+    <string name="sync_url_bookstand_create">http:///SERVER_ADDRESS_TAG//createNewBookStand</string>
+    <string name="sync_url_short_url">http:///SERVER_ADDRESS_TAG//shortenUrl</string>
+    <string name="sync_url_view_book_url">http://pubress.com/book//BOOK_ID_TAG/</string>
+    
+    <!-- social network settings -->
+    <string name="social_facebook_app_id">301988713340194</string>
+    <string name="social_facebook_app_secret">c9d8e77b4094aee4037160f16eaff729</string>
+    <string name="social_twitter_app_id">6495wUnttTLasRuVOsHWgw</string>
+    <string name="social_twitter_app_secret">gIJZWnSfH4NhCexMOQacPSiUNocgPWrAMvkzLUXVC4c</string>
+    <string name="social_twitter_callback_url">oauth://BuzzPost</string>
+    
+	<string name="md__drawerOpenIndicatorDesc">close drawer</string>
+    <string name="md__drawerClosedIndicatorDesc">open drawer</string>
+	
+    <integer name="grid_column_count_portrait">2</integer>
+    <integer name="grid_column_count_landscape">3</integer>
+    
+    <integer name="store_author_image_width">38</integer>
+    <integer name="store_author_image_height">38</integer>
+    <integer name="store_category_size">45</integer>
+    <integer name="store_user_image_size">70</integer>
+    <integer name="user_profile_size">45</integer>
+    
+    <string name="default_following_number">0</string>
+    
+    <string name="view_default_page_index">0/0</string>
+    
+</resources>
